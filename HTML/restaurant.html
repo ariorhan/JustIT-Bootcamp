@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+</head>
+<body>
+    <h1>Welcome to BlaBlaBla Restaurant</h1>
+    <h2>Online Order</h2>
+    <form action="/action_page.php">
+    <label for="Appetizers">Appetizers</label>
+    <select name="appetizers" id="appetizers">
+        <option value="default">Select your appetizers</option>
+        <option value="soup">Soup</option>
+        <option value="garlic bread">Garlic Bread</option>
+        <option value="cheese sticks">Cheese Sticks</option>        
+    </select>
+    <hr>
+
+    <label for="main dishes">Main Dishes</label>
+    <select name="main dishes" id="main dishes">
+        <option value="default">Select your main dishes</option>
+        <option value="beef steak">Beef Steak</option>
+        <option value="turkish kebap">Turkish Kebap</option>
+        <option value="meatball">Meatball</option>        
+    </select>
+    <hr>
+
+    <label for="hot drinks">Hot Drinks</label>
+    <select name="hot drinks" id="hot drinks">
+        <option value="default">Select your hot drinks</option>
+        <option value="filter coffee">Filter Coffee</option>
+        <option value="tea">Tea</option>
+        <option value="green tea">Green Tea</option>        
+    </select>
+    <p>Would you like to milk?</p>
+    <input type="radio" id="yes" name="milk" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="milk" value="no">
+    <label for="no">No</label><br>
+    <hr>
+    <input type="submit" value="Order">
+
+
+
+    </form>
+    
+
+
+    
+</body>
+</html>
